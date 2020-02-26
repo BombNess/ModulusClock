@@ -24,6 +24,9 @@ public class Main {
         hours = 60 <= minutes ? ++hours : hours;
 
 
+        System.out.println(hours%12);
+
+
 
 
 
