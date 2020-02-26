@@ -24,8 +24,10 @@ public class Main {
         hours = 60 <= minutes ? ++hours : hours;
 
 
-        System.out.println(hours%12);
-        System.out.println(minutes%60);
+        hours %= 12;
+        minutes %= 60;
+        System.out.printf("The time is: %d:%02d",hours,minutes);
+
 
 
 
