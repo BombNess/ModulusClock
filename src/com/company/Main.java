@@ -25,6 +25,7 @@ public class Main {
 
 
         System.out.println(hours%12);
+        System.out.println(minutes%60);
 
 
 
